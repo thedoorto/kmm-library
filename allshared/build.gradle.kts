@@ -49,7 +49,8 @@ kotlin {
 addGithubPackagesRepository()
 
 kmmbridge {
-    mavenPublishArtifacts()
+//     mavenPublishArtifacts()
+    githubReleaseArtifacts()
     githubReleaseVersions()
     spm()
 //    cocoapods("git@github.com:touchlab/PodSpecs.git")
